@@ -1,27 +1,23 @@
-# 📺 Torrent Link Scraper Chatbot
+# 📺 Torrent Link Scraper Chatbot (Telegram Bot)
 
-A Python-based chatbot that lets users search and retrieve torrent magnet links for TV shows based on season and episode. It uses the [TV Maze API](https://www.tvmaze.com/api) for show metadata and dynamically scrapes torrent websites for up-to-date magnet links.
+A Python-based Telegram chatbot that allows users to search and retrieve torrent magnet links for TV shows based on season and episode.  
+It integrates the [TV Maze API](https://www.tvmaze.com/api) to fetch show data and scrapes torrent websites to extract magnet links, including metadata like seeders and leechers.
 
 ---
 
 ## 🚀 Features
 
-- 🔍 Search for TV shows and browse by season and episode
-- ⚙️ Uses TV Maze API for accurate show data
-- 🧲 Extracts torrent details: title, seeders, leechers, and magnet links
-- ⚡ Fast performance with `diskcache` (cached queries respond in <0.2s)
-- 💬 Interactive chatbot-style CLI interface
+- 🔍 **TV Show Search:** Search for a TV show and view seasons and episodes via Telegram.
+- 📦 **Torrent Scraping:** Retrieves torrent magnet links from dynamically generated web pages.
+- 📊 **Torrent Details:** Displays title, seeders, leechers, and magnet link.
+- ⚡ **Fast Responses:** Uses a lightweight scraping mechanism with HTML parsing.
+- 💬 **Telegram Bot Interface:** Easily accessible through Telegram chat.
 
 ---
 
-## 🛠️ Installation
+## 🧾 Requirements
 
-### Requirements
-
-- Python 3.7+
-- pip
-
-### Install dependencies
+Install dependencies with:
 
 ```bash
 pip install -r requirements.txt
